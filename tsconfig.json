@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true,
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "allowJs": true,
+    "noEmit": false,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react"
+  },
+  "include": ["**/*.ts","**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
+//{
+//  "compilerOptions": {
+//    "target": "es5",
+//    "module": "commonjs",
+//    "strict": true,
+//    "strictNullChecks": true,
+//    "esModuleInterop": true,
+//    "experimentalDecorators": true
+//  }
+//}
+
